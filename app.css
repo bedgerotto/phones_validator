@@ -1,0 +1,57 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input[type=text], select {
+  width: 20%;
+  padding: 2px 5px;
+  margin: 10px 10px 10px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+table {
+  margin: 0 auto; 
+  width: 80%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 1px solid #ddd;
+}
+
+.button {
+  background-color: #e7e7e7;
+  color: black;
+  border: none;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+th {
+  background-color: #b3abab
+}
+
+th, td {
+  text-align: left;
+  padding: 5px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2
+}
+
+#filters {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.footer {
+  margin: 10px auto; 
+  width: 80%;
+}

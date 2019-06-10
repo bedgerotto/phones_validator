@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="app.css">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="index.js"></script>
+  </head>
+
+  <body>
+    <h1 align="center">Phone Numbers</h1>
+    <div id="filters">
+      <label for="country">Country</label>
+      <select name="country" id="country-filter" placeholder="Select country">
+          <option value=""></option>
+          <option value="237">Cameroon</option>
+          <option value="251">Ethiopia</option>
+          <option value="212">Morocco</option>
+          <option value="258">Mozambique</option>
+          <option value="256">Uganda</option>
+      </select>
+      
+      <label for="state">State</label>
+      <select name="state" id="state-filter" placeholder="Phone numbers state">
+          <option value=""></option>
+          <option value="1">OK</option>
+          <option value="2">NOK</option>
+      </select>
+    </div>
+    
+    <table id='phones-table'>
+      <thead>
+        <tr>
+          <th>Country</th>
+          <th>State</th>
+          <th>Country Code</th>
+          <th>Phone num.</th>
+        </tr>
+      </thead>
+    
+      <tbody id="phones-data"></tbody>
+    </table>
+    <div class="footer">
+      <button onClick="previousPage()" id="btn-previous">Previous</button>
+      <button onClick="nextPage()" id="btn-next">Next</button>
+    </div>
+  </body>
+</html>

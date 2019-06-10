@@ -1,0 +1,15 @@
+{
+  "require-dev":{
+    "php" : "^7.2",
+    "phpunit/phpunit" : "4.*",
+    "ext-sqlite3" : "*"
+  },
+  "autoload" : {
+    "psr-4" : {
+      "App\\" : [
+        "src/App",
+        "tests/App"
+      ]
+    }
+  }
+}
