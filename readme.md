@@ -12,10 +12,10 @@ After clonning the repository, enter in the project folder and follow the steps 
 
 ## Installing dependencies
 
-`docker exec -it teste composer install`
+`docker exec -it validator composer install`
 
 ## Running tests
 
-`docker exec -it teste vendor/bin/phpunit tests`
+`docker exec -it validator vendor/bin/phpunit tests`
 
 After all, it's possible to access the 127.0.0.1:8080 to see the interface
