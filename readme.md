@@ -8,7 +8,7 @@ After clonning the repository, enter in the project folder and follow the steps 
 
 ## Starting a container
 
-`docker run --name validator -it -d -p 8080:80 -v {path_to_project}:/phone_validator phone_validator`
+`docker run --name validator -it -d -p 8080:80 -v /complete/path/to/project:/phone_validator phone_validator`
 
 ## Installing dependencies
 
